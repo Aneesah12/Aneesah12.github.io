@@ -1,3 +1,10 @@
-body {
+h1 {
+	font-size: 2em;
+	font-family: serif;
 	color: hotpink;
+	font-weight: bold;
+}
+p {
+	font-family: sans-serif;
+	color: seagreen;
 }
