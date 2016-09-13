@@ -1,10 +1,121 @@
+html {
+	background: url("IMG_San_Juan_2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	border-top: 5px solid #c71585;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
 h1 {
-	font-size: 2em;
-	font-family: serif;
+	margin: 50px 10px;
+	font-size: 5em;
+	font-family: Helvetica, Arial, sans-serif;
 	color: hotpink;
 	font-weight: bold;
+	text-shadow: 2px 2px 2px turquoise;
 }
 p {
-	font-family: sans-serif;
-	color: seagreen;
+	margin: 20px 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: black;
 }
+#the-quote {
+	margin: 15px;
+}
+iframe {
+	margin: 20px 10px;
+}
+h2 {
+	font-size: 25px;
+	margin: 15px 10px;
+	color: #4B0082;
+}
+.timeline ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.timeline li{
+	padding: 10px 40px;
+	font-size: 0.85em;
+}
+.timeline li:nth-child(odd) {
+	background-color: rgba(255,153,204,0.5);
+}
+.timeline li:nth-child(even) {
+	background-color: rgba(204,204,255,0.5);
+}
+.sidebar {
+	background-color: #FFFFF0;
+	width: 20%;
+	min-width: 300px;
+	max-width: 320px;
+	display: inline-block;
+	padding: 15px 15px 10px;
+	border: 3px solid #e8e8ea;
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 70px;
+	border-radius: 60px;
+	float: right;
+}
+ul.destinations {
+	list-style: none;
+	margin-left: 10px;
+	padding-left: 20px;
+}
+.destinations li {
+	border-bottom: 1px solid #b0afc0;
+	padding: 10px;
+	width: 200px;
+}
+.destinations li a {
+	color: hotpink;
+	text-decoration: none;
+	text-shadow: 1px 0px #ffffff;
+	border-left: 7px solid #fdcc38;
+	padding-left: 10px;
+}
+.destinations li a:hover {
+	border-left-color: #48D1CC;
+}
+.sidebar strong {
+	margin-left: 36px;
+	color: #4c4066;
+	font-size: 19px;
+}
+h3 {
+	font-size: 25px;
+	color: #4B0082;
+	margin: 15px 10px;
+}
+section {
+	padding: 10px;
+	display: inline-block;
+	font-weight: bold;
+}
+img {
+	width: 340px;
+	height: 250px;
+	border: 3px solid gold;
+}
+figure {
+	margin: 0;
+	padding-bottom: 4px;
+}
+figcaption {
+	text-align: center;
+	line-height: 1.5em;
+	background-color: rgba(255,255,255,0.5);
+}
+footer {
+	height: 25px;
+	color: #48D1CC;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 15px;
+	background-color: #1f1430;
+	border-top: 5px solid hotpink;
+	margin-top: 20px;
+}
+
